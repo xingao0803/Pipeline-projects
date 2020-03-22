@@ -42,7 +42,7 @@ targetCompatibility = 1.8
 
 repositories {
 	maven {
-		url "${artifactory_url}/team1-gradle"
+		url "${artifactory_url}/pipeline-gradle-virtual"
 		credentials {
 			username = System.getenv().int_artifactory_user
 			password = System.getenv().int_artifactory_apikey
